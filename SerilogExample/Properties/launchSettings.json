@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "SerilogExample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DD_LOGS_INJECTION": "true",
+        "DD_ENV": "dev",
+        "DD_SERVICE": "SerilogExample",
+        "DD_VERSION": "1.0.0",
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{846F5F1C-F9AE-4B07-969E-05C26BC060D8}",
+        "DD_DOTNET_TRACER_HOME": "C:\\Users\\ClaudioCésarRuelaPar\\RiderProjects\\dd-trace-dotnet\\tracer\\samples\\AutomaticTraceIdInjection\\SerilogExample\\bin\\Debug\\net5.0\\datadog",
+        "CORECLR_PROFILER_PATH": "C:\\Users\\ClaudioCésarRuelaPar\\RiderProjects\\dd-trace-dotnet\\tracer\\samples\\AutomaticTraceIdInjection\\SerilogExample\\bin\\Debug\\net5.0\\datadog\\win-x64\\Datadog.Trace.ClrProfiler.Native.dll"
+      }
+    }
+  }
+}
